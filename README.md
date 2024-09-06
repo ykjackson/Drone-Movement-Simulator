@@ -12,7 +12,7 @@ Calculate the **total distance** traveled by the drone during execution.
 
 **m(P):** This command repeats the enclosed subprogram P exactly m times.
 
-I used STACK data structure here as it's an ideal data structure for this problem due to the nested nature of the instructions. The instructions can involve subprograms wrapped inside parentheses, which resemble a recursive structure. By using a stack, we can:
+I used **STACK** data structure here as it's an ideal data structure for this problem due to the nested nature of the instructions. The instructions can involve subprograms wrapped inside parentheses, which resemble a recursive structure. By using a stack, we can:
 
 **Track the coordinates** dynamically as the drone executes its moves.
 
