@@ -8,8 +8,9 @@ Calculate the **total distance** traveled by the drone during execution.
 
 ## Problem Specifications:
 
-+X, -X, +Y, -Y, +Z, -Z: These commands move the drone in the respective directions by one unit.
-m(P): This command repeats the enclosed subprogram P exactly m times.
+**+X, -X, +Y, -Y, +Z, -Z:** These commands move the drone in the respective directions by one unit.
+
+**m(P):** This command repeats the enclosed subprogram P exactly m times.
 
 I used STACK data structure here as it's an ideal data structure for this problem due to the nested nature of the instructions. The instructions can involve subprograms wrapped inside parentheses, which resemble a recursive structure. By using a stack, we can:
 
